@@ -18,7 +18,7 @@ body {
 .flip-card {
   background-color: transparent;
   width: 100vw;
-  height: 750px;
+  height: 730px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   /* Remove this if you don't want the 3D effect */
@@ -66,5 +66,12 @@ body {
 
 p {
   text-align: center;
+  justify-content: center;
   padding: 6px;
+}
+
+p.signature {
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
 }
